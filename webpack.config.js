@@ -8,13 +8,7 @@ module.exports = {
   mode: isProduction ? 'production' : 'development',
   entry: './src/index.tsx',
   output: {
-    /** "path"
-     * the folder path of the output file 
-     */
     path: path.resolve(__dirname, "public"),
-    /** "filename"
-     * the name of the output file 
-     */
     filename: "main.js"
   },
   module: {
