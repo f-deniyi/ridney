@@ -4,7 +4,6 @@
   "description": "Trial task",
   "main": "index.js",
   "scripts": {
-    "test": "run test",
     "start": "webpack serve --port 8080",
     "build": "NODE_ENV=production webpack"
   },
